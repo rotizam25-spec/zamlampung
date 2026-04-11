@@ -1,0 +1,20 @@
+{
+  "name": "zamlampung",
+  "version": "1.0.0",
+  "description": "PT. Zona Andalas Mandiri - Jasa Outsourcing Lampung",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "echo 'Static HTML - no build needed'",
+    "lint": "echo 'No linter configured'"
+  },
+  "keywords": [
+    "outsourcing",
+    "lampung",
+    "hr-management"
+  ],
+  "author": "PT. Zona Andalas Mandiri",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.14"
+  }
+}
