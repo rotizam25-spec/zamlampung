@@ -1,12 +1,13 @@
 /**
  * Vercel Speed Insights Integration
  * This script loads and initializes Vercel Speed Insights for performance tracking
+ * For static HTML/vanilla JS projects
  */
 
-// Import and initialize Speed Insights
-import { injectSpeedInsights } from './node_modules/@vercel/speed-insights/dist/index.mjs';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
-// Initialize Speed Insights
+// Initialize Speed Insights with configuration
 injectSpeedInsights({
     debug: false, // Set to true for development debugging
+    framework: 'vanilla',
 });
