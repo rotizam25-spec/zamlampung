@@ -78,6 +78,15 @@
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 
+    <!-- Import Map for ES Modules -->
+    <script type="importmap">
+    {
+        "imports": {
+            "@vercel/speed-insights": "./node_modules/@vercel/speed-insights/dist/index.mjs"
+        }
+    }
+    </script>
+
     <!-- Vercel Speed Insights -->
     <script type="module" src="./speed-insights.js"></script>
 
