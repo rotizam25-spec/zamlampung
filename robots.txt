@@ -1,1 +1,1 @@
-User-agent: *Allow: /Sitemap: https://www.google.com/search?q=https://zamlampung.biz.id/sitemap.xml
+User-agent: *Allow: /Sitemap: https://www.google.com/url?sa=E&source=gmail&q=https://zamlampung.biz.id/sitemap.xml
